@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="221.001" height="59" viewBox="0 0 221.001 59">
+  <defs>
+    <filter id="União_4" x="0" y="0" width="221.001" height="59" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#d9d8d4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="tooltip" transform="translate(15 10)">
+    <g transform="matrix(1, 0, 0, 1, -15, -10)" filter="url(#União_4)">
+      <path id="União_4-2" data-name="União 4" d="M23.683,29a14.493,14.493,0,0,1-12.508-7.161L0,14.846c7.117-.2,8.036-.963,9.44-3.078A14.5,14.5,0,0,1,23.683,0H176.5a14.5,14.5,0,0,1,0,29Z" transform="translate(15 10)" fill="#6fc4c7"/>
+    </g>
+    <text id="ESSE_É_O_SEU_LOGIN" data-name="ESSE É O SEU LOGIN" transform="translate(99 21)" fill="#eaf3f1" font-size="16" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-74.148" y="0">ESSE É O SEU LOGIN</tspan></text>
+  </g>
+</svg>

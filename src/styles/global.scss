@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fff;
+    --white-10: #eaf3f1;
+
+    --cyan-50: #507cac;
+    --turquese-50: #6fc4c7;
+    --yellow-20: #ded476;
+    --pink-60: #b9346f;
+    --darkblue-800: #1e1224;
+    --beige-10: #d9d8d4;
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+body {
+    background: linear-gradient(180deg, rgba(80, 124, 172, 1) 0%, rgba(111, 196, 199, 1) 70%);
+}
+
+body,
+input,
+textarea,
+button {
+    font: 500 1rem "Lato", sans-serif;
+    color: var(--cyan-50);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    font-family: Lato;
+    color: var(--cyan-50);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: #507cac;
+    text-decoration: underline #507cac;
+}
+
+input {
+    font-weight: 400;
+    font-size: 1rem;
+
+    &::placeholder {
+        color: #507cac;
+        opacity: 0.4; /* Firefox */
+    }
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 1px solid #1e1224;
+}
+
+button[type="submit"],
+button[type="button"] {
+    padding: 0 3rem;
+    height: 2.5rem;
+
+    background-color: #507cac;
+
+    color: #ffffff;
+    border-radius: 1rem;
+    border: 0;
+    font-size: 1rem;
+    font-weight: 600;
+
+    transition: filter 0.2s;
+
+    &:hover {
+        filter: brightness(0.9);
+    }
+}
+
+.container {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerInput {
+    margin-top: 2rem;
+    border: none;
+    border-bottom: 1px solid #507cac;
+    background-color: var(--white);
+}
+
+.containerButton {
+    display: flex;
+    margin: 1.5rem auto;
+    justify-content: center;
+}
+
+.heading1 {
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+.heading2 {
+    font-size: 2.125rem;
+    font-weight: 700;
+}
+
+.heading3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.heading4 {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.aquecimento {
+    background-image: url("/aquecimento.png");
+}
+.velpal {
+    background-image: url("/velocidade.png");
+}
+.educativo {
+    background-image: url("/educativo.png");
+}
+.serie {
+    background-image: url("/serie.png");
+}
+.rml {
+    background-image: url("/rml.png");
+}

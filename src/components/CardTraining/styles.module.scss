@@ -1,0 +1,33 @@
+.containerCard {
+    max-width: 900px;
+    margin: 1rem 0;
+    padding: 1rem 2.5rem;
+    border-radius: 1.5rem;
+    background-color: var(--cyan-50);
+}
+
+.text1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.containerInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.repeat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trainingInfo {
+    width: 74%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+}
